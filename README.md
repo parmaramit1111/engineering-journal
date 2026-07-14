@@ -2,76 +2,78 @@
 
 Welcome to my Engineering Journal.
 
-This repository is a collection of engineering notes, architecture decisions, best practices, and lessons learned while building enterprise software over the years.
+This repository is a collection of engineering notes, case studies, architectural decisions, best practices, and lessons learned from over 20 years of designing and building enterprise software.
 
-The goal is to document practical knowledge, explore new technologies, and continuously improve as a software engineer.
+The purpose of this journal is to document practical engineering knowledge, explore new technologies, and continuously improve as a software engineer.
 
 > **Note**
 >
-> All content is based on original examples, personal learning, and generalized engineering concepts. No client source code, proprietary information, or confidential implementation details are included.
+> All articles are based on original examples, personal experience, and generalized engineering concepts. Client source code, proprietary business logic, and confidential implementation details have been intentionally excluded or anonymized.
 
 ---
 
-## 📂 Topics
+# 📂 Repository Structure
 
-### Backend Development
-- .NET
-- ASP.NET Core
-- C#
-- Python
-- Node.js
-- PHP
+```text
+engineering-journal/
 
-### Frontend
-- React
-- JavaScript
-- TypeScript
-
-### Databases
-- SQL Server
-- PostgreSQL
-- MongoDB
-- Redis
-
-### Cloud & DevOps
-- AWS
-- Azure
-- Docker
-- Git
-- CI/CD
-
-### Software Engineering
-- System Design
-- Software Architecture
-- Design Patterns
-- Performance Optimization
-- Security
-- API Design
-
-### Artificial Intelligence
-- Claude Code
-- OpenAI
-- Ollama
-- Hugging Face
-- AI Coding Agents
-- Prompt Engineering
-- MCP
-- Local LLMs
+├── backend/
+│   ├── entity-framework/
+│   └── ...
+│
+├── databases/
+│   ├── redis/
+│   └── ...
+│
+├── cloud/
+│   └── ...
+│
+├── architecture/
+│   └── ...
+│
+└── README.md
+```
 
 ---
 
-## 🎯 Purpose
+# 📝 Article Types
+
+This journal currently contains two types of articles.
+
+## 📖 Engineering Notes
+
+Technology-focused articles covering concepts, best practices, implementation guidance, and practical recommendations.
+
+### Available Articles
+
+- [When Should You Use Redis Cache in Enterprise Applications?](./databases/redis/README.md)
+
+---
+
+## 📚 Engineering Case Studies
+
+Real-world engineering challenges, architectural decisions, performance investigations, trade-offs, and lessons learned from enterprise software projects.
+
+### Available Articles
+
+- [Why Do Entity Framework Queries Become Slow in Complex Reporting Systems?](./backend/entity-framework/README.md)
+
+---
+
+# 🎯 Purpose
 
 This journal helps me:
 
-- Capture engineering knowledge
-- Document design decisions
+- Document engineering knowledge
+- Capture architectural decisions
 - Share practical solutions
-- Learn new technologies
-- Build a long-term engineering knowledge base
+- Explore new technologies
+- Continuously improve as an engineer
 
 ---
 
-## 📅 Status
+# 🚀 Current Status
 
-This repository is actively maintained and will continue to grow with new notes, experiments, and engineering insights.
+This repository is actively maintained and will continue to grow with new Engineering Notes, Engineering Case Studies, and practical software engineering insights.
+
+Thank you for visiting.
