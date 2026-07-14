@@ -49,14 +49,17 @@ Each user sees different dashboard statistics and reports depending on:
 
 Unlike transactional screens, reporting must combine data from several loosely related entities before applying business rules.
 
-As the number of reports and filters increased, query execution time also increased noticeably.
+As reporting requirements expanded and business rules became more sophisticated, query execution time increased noticeably.
 
 ---
 
-### Simplified Data Model
+## Simplified Data Model
 
-The following simplified architecture represents the relationship between business entities used for generating role-based reports.
+The following simplified diagram illustrates the business relationships involved in generating role-based reports.
 
+> Business entities, relationships, and terminology have been generalized to preserve confidentiality while demonstrating the underlying architectural concepts.
+
+![Business Relationship Model](./images/business-relationship-model.svg)
 
 The reporting module relies on the following simplified entities:
 
@@ -144,6 +147,8 @@ The investigation focused on:
 
 This helped distinguish ORM overhead from actual database bottlenecks.
 
+Only after identifying the real bottlenecks did we begin implementing targeted optimizations.
+
 ---
 
 ## Engineering Decisions
@@ -182,7 +187,9 @@ Entity Framework was used for standard data access, while carefully written SQL 
 
 ## Solution Approach
 
-Performance improvements came from several targeted optimizations rather than one major change.
+No single optimization solved the problem.
+
+Instead, performance improvements came from several targeted changes applied across the data access layer, database design, and reporting architecture.
 
 ### Simplified Query Logic
 
@@ -212,7 +219,7 @@ This significantly reduced table scans.
 
 Only relationships required for each report were loaded.
 
-Unused Includes were removed or replaced with more efficient projections.
+Unused `Include()` statements were removed or replaced with more efficient projections.
 
 ---
 
@@ -297,10 +304,14 @@ Performance improvements came from simplifying query design, improving database 
 
 Thank you for reading.
 
-If you found this article useful, feel free to explore the other Engineering Journal articles in this repository.
+I hope this engineering case study provided practical insights into designing and optimizing complex reporting systems.
+
+Feel free to explore the other Engineering Journal articles in this repository.
 
 ---
 
 **Article Version:** 1.0
+
+**First Published:** July 2026
 
 **Last Reviewed:** July 2026
