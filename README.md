@@ -58,6 +58,8 @@ Real-world engineering challenges, architectural decisions, performance investig
 
 - [Why Do Entity Framework Queries Become Slow in Complex Reporting Systems?](./backend/entity-framework/README.md)
 
+- [When Should You Use Raw SQL Alongside Entity Framework?](./backend/entity-framework/raw-sql-vs-entity-framework/README.md)
+
 ---
 
 # 🎯 Purpose
