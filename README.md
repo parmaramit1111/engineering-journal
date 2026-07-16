@@ -60,6 +60,8 @@ Real-world engineering challenges, architectural decisions, performance investig
 
 - [When Should You Use Raw SQL Alongside Entity Framework?](./backend/entity-framework/raw-sql-vs-entity-framework/README.md)
 
+- [How Do You Troubleshoot High Database CPU Usage in Production?](./databases/postgresql/high-cpu-troubleshooting/README.md)
+
 ---
 
 # 🎯 Purpose
