@@ -62,6 +62,8 @@ Real-world engineering challenges, architectural decisions, performance investig
 
 - [How Do You Troubleshoot High Database CPU Usage in Production?](./databases/postgresql/high-cpu-troubleshooting/README.md)
 
+- [How Do You Implement Data-Level Authorization in Enterprise SaaS Applications?](./architecture/data-level-authorization/README.md)
+
 ---
 
 # 🎯 Purpose
