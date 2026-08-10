@@ -31,6 +31,10 @@ engineering-journal/
 ├── architecture/
 │   └── ...
 │
+├── ai/
+│   └── rag/
+│       └── README.md
+│
 └── README.md
 ```
 
@@ -46,7 +50,7 @@ Technology-focused articles covering concepts, best practices, implementation gu
 
 ### Available Articles
 
-- [When Should You Use Redis Cache in Enterprise Applications?](./databases/redis/README.md)
+* [When Should You Use Redis Cache in Enterprise Applications?](./databases/redis/README.md)
 
 ---
 
@@ -56,13 +60,15 @@ Real-world engineering challenges, architectural decisions, performance investig
 
 ### Available Articles
 
-- [Why Do Entity Framework Queries Become Slow in Complex Reporting Systems?](./backend/entity-framework/README.md)
+* [Why Entity Framework Queries Become Slow in Complex Reporting Systems?](./backend/entity-framework/README.md)
 
-- [When Should You Use Raw SQL Alongside Entity Framework?](./backend/entity-framework/raw-sql-vs-entity-framework/README.md)
+* [When Should You Use Raw SQL Alongside Entity Framework?](./backend/entity-framework/raw-sql-vs-entity-framework/README.md)
 
-- [How Do You Troubleshoot High Database CPU Usage in Production?](./databases/postgresql/high-cpu-troubleshooting/README.md)
+* [How Do You Troubleshoot High Database CPU Usage in Production?](./databases/postgresql/high-cpu-troubleshooting/README.md)
 
-- [How Do You Implement Data-Level Authorization in Enterprise SaaS Applications?](./architecture/data-level-authorization/README.md)
+* [How Do You Implement Data-Level Authorization in Enterprise SaaS Applications?](./architecture/data-level-authorization/README.md)
+
+* [Building a RAG Knowledge Assistant from the Ground Up: Architecture, Decisions, and Lessons Learned](./ai/rag/README.md)
 
 ---
 
@@ -70,11 +76,11 @@ Real-world engineering challenges, architectural decisions, performance investig
 
 This journal helps me:
 
-- Document engineering knowledge
-- Capture architectural decisions
-- Share practical solutions
-- Explore new technologies
-- Continuously improve as an engineer
+* Document engineering knowledge
+* Capture architectural decisions
+* Share practical solutions
+* Explore new technologies
+* Continuously improve as an engineer
 
 ---
 
