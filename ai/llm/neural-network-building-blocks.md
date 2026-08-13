@@ -1,13 +1,13 @@
-# Before the LLM: Can a Machine Learn With Just a Few Numbers?
-
-**Category:** AI
-**Article Type:** Engineering Learning Journal
-**Difficulty:** Intermediate
-**Reading Time:** 8–10 minutes
-**Published:** August 2026
-
-
 ---
+Article Type: Engineering Learning Journal
+Category: AI
+Difficulty: Intermediate
+Reading Time: 8–10 minutes
+Published: August 2026
+---
+
+
+# Before the LLM: Can a Machine Learn With Just a Few Numbers?
 
 *What I learned by building the first few pieces of a neural network from scratch.*
 
