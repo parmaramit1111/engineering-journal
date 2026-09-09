@@ -13,15 +13,13 @@ The goal is simple:
 ### Backend & API
 
 * [Why Entity Framework Queries Become Slow in Complex Reporting Systems?](./backend/entity-framework/README.md)
-
 * [When Should You Use Raw SQL Alongside Entity Framework?](./backend/entity-framework/raw-sql-vs-entity-framework/README.md)
-
 * [REST API Design: Practical Decisions That Matter](./backend/api/rest-api-design/README.md)
+* [REST vs GraphQL: When Should You Use Each?](./backend/api/rest-vs-graphql/README.md)
 
 ### Databases
 
 * [When Should You Use Redis Cache in Enterprise Applications?](./databases/redis/README.md)
-
 * [How Do You Troubleshoot High Database CPU Usage in Production?](./databases/postgresql/high-cpu-troubleshooting/README.md)
 
 ### Architecture
@@ -31,7 +29,6 @@ The goal is simple:
 ### AI & Machine Learning
 
 * [Building a RAG Knowledge Assistant from the Ground Up: Architecture, Decisions, and Lessons Learned](./ai/rag/README.md)
-
 * [Before the LLM: Can a Machine Learn With Just a Few Numbers?](./ai/llm/neural-network-building-blocks.md)
 
 ---
