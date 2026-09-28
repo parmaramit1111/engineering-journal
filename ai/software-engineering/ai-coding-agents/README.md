@@ -10,6 +10,8 @@ Tags: AI Coding Agents, AI Development, Software Engineering, Code Review, CI/CD
 
 **Estimated Reading Time:** 12 Minutes
 
+![AI Coding Agents in the Software Development Workflow](./ai-coding-agents-workflow.svg)
+
 ## Overview
 
 AI-assisted development has moved beyond code completion.
@@ -726,9 +728,9 @@ It does not make those responsibilities disappear.
 
 # Related Engineering Topics
 
-- [REST API Design: Practical Decisions That Matter](../../backend/api/rest-api-design/README.md)
-- [REST vs GraphQL: When Should You Use Each?](../../backend/api/rest-vs-graphql/README.md)
-- [Building a RAG Knowledge Assistant from the Ground Up: Architecture, Decisions, and Lessons Learned](../rag/README.md)
+- [REST API Design: Practical Decisions That Matter](../../../backend/api/rest-api-design/README.md)
+- [REST vs GraphQL: When Should You Use Each?](../../../backend/api/rest-vs-graphql/README.md)
+- [Building a RAG Knowledge Assistant from the Ground Up: Architecture, Decisions, and Lessons Learned](../../rag/README.md)
 - AI Engineering
 - Developer Productivity
 - CI/CD
