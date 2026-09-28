@@ -30,6 +30,7 @@ The goal is simple:
 
 * [Building a RAG Knowledge Assistant from the Ground Up: Architecture, Decisions, and Lessons Learned](./ai/rag/README.md)
 * [Before the LLM: Can a Machine Learn With Just a Few Numbers?](./ai/llm/neural-network-building-blocks.md)
+* [AI Coding Agents: Who Is Responsible for the Code?](./ai/software-engineering/ai-coding-agents/README.md)
 
 ---
 
