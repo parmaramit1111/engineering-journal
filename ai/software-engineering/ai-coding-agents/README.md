@@ -10,7 +10,7 @@ Tags: AI Coding Agents, AI Development, Software Engineering, Code Review, CI/CD
 
 **Estimated Reading Time:** 12 Minutes
 
-![AI Coding Agents in the Software Development Workflow](./ai-coding-agents-workflow.svg)
+![AI Coding Agents in the Software Development Workflow](./ai-coding-agents-workflow.png)
 
 ## Overview
 
